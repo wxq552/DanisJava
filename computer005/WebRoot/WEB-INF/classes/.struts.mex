@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="0,0" size="0,0" />
+  <webResource name="registerSuccess.jsp" path="/registerSuccess.jsp" location="246,430" size="150,55" />
+  <webResource name="registerFail.jsp" path="/registerFail.jsp" location="10,220" size="150,55" />
+  <webResource name="userlist.jsp" path="/userlist.jsp" location="267,10" size="150,55" />
+  <webResource name="user.jsp" path="/user.jsp" location="517,220" size="150,55" />
+</Struts2Diagram>
+

@@ -1,0 +1,44 @@
+
+/*图片轮换*/
+#slideBox{
+	z-index: 1;
+	width:1005px;
+	height:300px;
+	overflow:hidden;
+	position:absolute;/*原本使用relative可以在ie下运行，但是火狐不行，使用absolute就可以了*/
+}
+#slideBox ul#show_pic{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:300px;
+	width:4750px;
+	position:absolute;
+}
+#slideBox ul#show_pic li{
+	float:left;
+	margin:0;
+	padding:0;
+	height:300px;
+}
+#slideBox ul#show_pic li img{
+	display:block;
+}
+#iconBall {
+	border:none;
+	position: absolute;
+	top:286px;
+	*top:300px;
+	right:0px;
+}
+#iconBall li{
+	float:left;
+	width:82px;
+	height:10px;
+	*height:11px;
+	cursor:pointer;
+	background:#8e6f28;
+}
+#iconBall li.active{
+	background:#00b5ef;
+	}

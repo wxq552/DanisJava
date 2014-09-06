@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+    <include file="struts-default.xml"/> 
+    
+     <constant name="struts.convention.package.locators" value="web,admin" />  
+	<!-- <package name="default" extends="struts-default">
+       <action name="index_action" class="com.test.web.indexAction"></action>
+	 
+	</package>
+    
+    <package name="admin" extends="struts-default" namespace="/admin">
+    
+       
+        
+       <action name="admin_action" class="com.test.admin.adminAction">
+         
+         <result name="loginsuc">/admin/index.jsp</result>
+         <result name="login">/admin/login.jsp</result>
+         <result name="uploadsuc">/admin/files/uploadsuc.jsp</result>
+       </action>
+	   
+	   <action name="message_action" class="com.test.admin.messageAction">
+	     <result name="msglist">/admin/files/00control_message.jsp</result>
+	     <result name="deletesuc">/admin/files/msgdeletesuc.jsp</result>
+	     <result name="deletefail">/admin/files/msgdeletefail.jsp</result>
+	     <result name="msgdetail">/admin/files/00control_message_detial.jsp</result>
+	   </action>
+	    
+	    <action name="job_action" class="com.test.admin.jobAction">
+	     <result name="addsuc">/admin/files/addsuc.jsp</result>
+	     <result name="input">/admin/files/addfail.jsp</result>
+	     <result name="joblist">/admin/files/00control_jobs.jsp</result>
+	     <result name="deljobsuc">/admin/files/deljobsuc.jsp</result>
+	     <result name="deljobfail">/admin/files/deljobfail.jsp</result>
+	     <result name="jobdetail">/admin/files/00control_jobs_detial.jsp</result>
+	     <result name="modify">/admin/files/job_modify.jsp</result>
+	     <result name="updatesuc">/admin/files/updatesuc.jsp</result>
+	     <result name="updatefail">/admin/files/updatefail.jsp</result>
+	    </action>
+	    
+	</package>
+ -->
+</struts>
+	

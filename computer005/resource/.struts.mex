@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="10,10" size="180,70">
+    <action name="index_action" location="15,23" size="150,40" />
+  </package>
+  <package name="admin" location="0,0" size="0,0">
+    <action name="admin_action" location="0,0" size="0,0">
+      <result name="loginsuc">
+        <resourceEdge source="loginsuc" routing="0" target="index.jsp" />
+      </result>
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="login.jsp" />
+      </result>
+      <result name="uploadsuc">
+        <resourceEdge source="uploadsuc" routing="0" target="uploadsuc.jsp" />
+      </result>
+    </action>
+    <action name="message_action" location="0,0" size="0,0">
+      <result name="msglist">
+        <resourceEdge source="msglist" routing="0" target="00control_message.jsp" />
+      </result>
+      <result name="deletesuc">
+        <resourceEdge source="deletesuc" routing="0" target="msgdeletesuc.jsp" />
+      </result>
+      <result name="deletefail">
+        <resourceEdge source="deletefail" routing="0" target="msgdeletefail.jsp" />
+      </result>
+      <result name="msgdetail">
+        <resourceEdge source="msgdetail" routing="0" target="00control_message_detial.jsp" />
+      </result>
+    </action>
+    <action name="job_action" location="0,0" size="0,0">
+      <result name="addsuc">
+        <resourceEdge source="addsuc" routing="0" target="addsuc.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="addfail.jsp" />
+      </result>
+      <result name="joblist">
+        <resourceEdge source="joblist" routing="0" target="00control_jobs.jsp" />
+      </result>
+      <result name="deljobsuc">
+        <resourceEdge source="deljobsuc" routing="0" target="deljobsuc.jsp" />
+      </result>
+      <result name="deljobfail">
+        <resourceEdge source="deljobfail" routing="0" target="deljobfail.jsp" />
+      </result>
+      <result name="jobdetail">
+        <resourceEdge source="jobdetail" routing="0" target="00control_jobs_detial.jsp" />
+      </result>
+      <result name="modify">
+        <resourceEdge source="modify" routing="0" target="job_modify.jsp" />
+      </result>
+      <result name="updatesuc">
+        <resourceEdge source="updatesuc" routing="0" target="updatesuc.jsp" />
+      </result>
+      <result name="updatefail">
+        <resourceEdge source="updatefail" routing="0" target="updatefail.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/admin/index.jsp" location="0,0" size="0,0" />
+  <webResource name="login.jsp" path="/admin/login.jsp" location="0,0" size="0,0" />
+  <webResource name="uploadsuc.jsp" path="/admin/files/uploadsuc.jsp" location="0,0" size="0,0" />
+  <webResource name="00control_message.jsp" path="/admin/files/00control_message.jsp" location="0,0" size="0,0" />
+  <webResource name="msgdeletesuc.jsp" path="/admin/files/msgdeletesuc.jsp" location="0,0" size="0,0" />
+  <webResource name="msgdeletefail.jsp" path="/admin/files/msgdeletefail.jsp" location="0,0" size="0,0" />
+  <webResource name="00control_message_detial.jsp" path="/admin/files/00control_message_detial.jsp" location="0,0" size="0,0" />
+  <webResource name="addsuc.jsp" path="/admin/files/addsuc.jsp" location="0,0" size="0,0" />
+  <webResource name="addfail.jsp" path="/admin/files/addfail.jsp" location="0,0" size="0,0" />
+  <webResource name="00control_jobs.jsp" path="/admin/files/00control_jobs.jsp" location="0,0" size="0,0" />
+  <webResource name="deljobsuc.jsp" path="/admin/files/deljobsuc.jsp" location="0,0" size="0,0" />
+  <webResource name="deljobfail.jsp" path="/admin/files/deljobfail.jsp" location="0,0" size="0,0" />
+  <webResource name="00control_jobs_detial.jsp" path="/admin/files/00control_jobs_detial.jsp" location="0,0" size="0,0" />
+  <webResource name="job_modify.jsp" path="/admin/files/job_modify.jsp" location="0,0" size="0,0" />
+  <webResource name="updatesuc.jsp" path="/admin/files/updatesuc.jsp" location="0,0" size="0,0" />
+  <webResource name="updatefail.jsp" path="/admin/files/updatefail.jsp" location="0,0" size="0,0" />
+  <include file="struts-default.xml" location="0,0" size="0,0" />
+</Struts2Diagram>
+
