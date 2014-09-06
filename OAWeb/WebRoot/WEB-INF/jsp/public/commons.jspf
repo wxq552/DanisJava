@@ -1,0 +1,10 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="ctx" value="${pageContext.request.contextPath}"></c:set>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script language="javascript" src="${ctx}/script/jquery.js"></script>
+<script language="javascript" src="${ctx}/script/pageCommon.js" charset="utf-8"></script>
+<script language="javascript" src="${ctx}/script/PageUtils.js" charset="utf-8"></script>
+<link type="text/css" rel="stylesheet" href="${ctx}/style/blue/pageCommon.css" />
+<script type="text/javascript">
+</script>

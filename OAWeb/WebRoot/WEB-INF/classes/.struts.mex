@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="0,0" size="0,0" />
+  <webResource name="index.jsp" path="/admin/index.jsp" location="0,0" size="0,0" />
+  <webResource name="login.jsp" path="/admin/login.jsp" location="0,0" size="0,0" />
+  <webResource name="uploadsuc.jsp" path="/admin/files/uploadsuc.jsp" location="0,0" size="0,0" />
+  <webResource name="00control_message.jsp" path="/admin/files/00control_message.jsp" location="0,0" size="0,0" />
+  <webResource name="msgdeletesuc.jsp" path="/admin/files/msgdeletesuc.jsp" location="0,0" size="0,0" />
+  <webResource name="msgdeletefail.jsp" path="/admin/files/msgdeletefail.jsp" location="0,0" size="0,0" />
+  <webResource name="00control_message_detial.jsp" path="/admin/files/00control_message_detial.jsp" location="0,0" size="0,0" />
+  <webResource name="addsuc.jsp" path="/admin/files/addsuc.jsp" location="0,0" size="0,0" />
+  <webResource name="addfail.jsp" path="/admin/files/addfail.jsp" location="0,0" size="0,0" />
+  <webResource name="00control_jobs.jsp" path="/admin/files/00control_jobs.jsp" location="0,0" size="0,0" />
+  <webResource name="deljobsuc.jsp" path="/admin/files/deljobsuc.jsp" location="0,0" size="0,0" />
+  <webResource name="deljobfail.jsp" path="/admin/files/deljobfail.jsp" location="0,0" size="0,0" />
+  <webResource name="00control_jobs_detial.jsp" path="/admin/files/00control_jobs_detial.jsp" location="0,0" size="0,0" />
+  <webResource name="job_modify.jsp" path="/admin/files/job_modify.jsp" location="0,0" size="0,0" />
+  <webResource name="updatesuc.jsp" path="/admin/files/updatesuc.jsp" location="0,0" size="0,0" />
+  <webResource name="updatefail.jsp" path="/admin/files/updatefail.jsp" location="0,0" size="0,0" />
+  <include file="struts-default.xml" location="0,0" size="0,0" />
+</Struts2Diagram>
+

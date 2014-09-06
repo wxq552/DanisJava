@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+    <include file="struts-default.xml"/> 
+    
+     <constant name="struts.convention.package.locators" value="action" />  
+     
+	 <package name="default" extends="struts-default">
+       <interceptors>
+          <!-- 声明拦截器 -->
+          <interceptor name="CheckPrivilege" class="com.oa.util.CheckPrivilegeInterceptor"></interceptor>
+          
+          <!-- 定义拦截器栈 -->
+          <interceptor-stack name="myStack">
+             <interceptor-ref name="CheckPrivilege"></interceptor-ref>
+             <interceptor-ref name="defaultStack"></interceptor-ref>
+          </interceptor-stack>
+       </interceptors>    
+       
+       <!-- 配置全局拦截器引用 -->
+       <default-interceptor-ref name="myStack"></default-interceptor-ref>
+       
+	</package>
+</struts>
+	
